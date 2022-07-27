@@ -53,8 +53,8 @@ app.get('/', function(req,res){
     <ul id="item-list" class="list-group pb-5">
     </ul>
   </div>
-  <div class="container">
-  <h4 class="text-center py-1">&copy; 2022 Villarma.All Rights Reserved!</h4>
+  <div class="container fixed-bottom" >
+  <p class="h6 text-muted text-center py-1">&copy; 2022 Villarma.All Rights Reserved!</p>
   </div>
   <script> let items = ${JSON.stringify(items)}</script>
   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
